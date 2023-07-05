@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: grey;
+    background-image: linear-gradient(black, gray);
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
+    max-width: 800px;
+    min-height: 100vh;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+body.home {
+    background-color: darkmagenta;
+}
+
+body.pesto {
+    background-color: darkgreen;
+}
+body.lasagna {
+    background-color: darkred;
+}
+
+body.cheeseburguer {
+    background-color: darkgoldenrod;
+}
+
+.title {
+    font-size: 48px;
+}
+
+.subtitle {
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+img {
+    display: block;
+    margin: 30px auto;
+}
+
+ul, ol {
+    margin: 0 auto;
+    list-style: none;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+a {
+    color: whitesmoke;
+}
+
+a:hover, a:focus {
+    color: gray;
+}
+
+a:active {
+    color: red;
+}
+
+.text {
+    position: absolute;
+    bottom: 10px;
+}
